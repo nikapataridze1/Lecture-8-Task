@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Banner Section */
+
+.banner-section {
+  background-color: #132238;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+}
+
+/* Blog Section */
+
+.blog-section .text-content {
+  text-align: center;
+  margin: 50px 0;
+}
+.blog-list {
+  display: flex;
+  gap: 15px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.card .card-content {
+  padding: 15px;
+}
+
+.card img {
+  border-radius: 8px 8px 0 0;
+}
